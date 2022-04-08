@@ -15,7 +15,7 @@
         </div>
         <div class="card-body">
           <p class="card-text">
-            {{ todo.todo_title }}
+            {{ todo.todo_description }}
           </p>
         </div>
       </div>

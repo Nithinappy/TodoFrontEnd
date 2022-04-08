@@ -61,6 +61,7 @@ export default {
   methods: {
     CreateTodo() {
       this.$store.dispatch("CreateTodo", this.formData);
+      this.$store.dispatch("GetMyTodos");
       this.$router.push("/UserHome");
     },
   },

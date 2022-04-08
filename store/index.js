@@ -4,7 +4,6 @@ export const state = () => ({
 	MyTodos: [],
     AllTodods: [],
     Token: '',
-    UserId:'',
 
 })
 

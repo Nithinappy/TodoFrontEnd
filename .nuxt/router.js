@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _7087e242 = () => interopDefault(import('..\\pages\\CreateTodo.vue' /* webpackChunkName: "pages/CreateTodo" */))
-const _c4c0aadc = () => interopDefault(import('..\\pages\\GetAllTodos.vue' /* webpackChunkName: "pages/GetAllTodos" */))
-const _6d685d0f = () => interopDefault(import('..\\pages\\UpdateTodo.vue' /* webpackChunkName: "pages/UpdateTodo" */))
-const _20ad8fac = () => interopDefault(import('..\\pages\\UserHome.vue' /* webpackChunkName: "pages/UserHome" */))
-const _2362b3ae = () => interopDefault(import('..\\pages\\UserLogin.vue' /* webpackChunkName: "pages/UserLogin" */))
-const _fd5667f8 = () => interopDefault(import('..\\pages\\UserRegistration.vue' /* webpackChunkName: "pages/UserRegistration" */))
-const _0cbf777c = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _4c2d1c43 = () => interopDefault(import('..\\pages\\CreateTodo.vue' /* webpackChunkName: "pages/CreateTodo" */))
+const _36a1b0b1 = () => interopDefault(import('..\\pages\\GetAllTodos.vue' /* webpackChunkName: "pages/GetAllTodos" */))
+const _490d9710 = () => interopDefault(import('..\\pages\\UpdateTodo.vue' /* webpackChunkName: "pages/UpdateTodo" */))
+const _58b2032a = () => interopDefault(import('..\\pages\\UserHome.vue' /* webpackChunkName: "pages/UserHome" */))
+const _81c494e6 = () => interopDefault(import('..\\pages\\UserLogin.vue' /* webpackChunkName: "pages/UserLogin" */))
+const _a8e67d76 = () => interopDefault(import('..\\pages\\UserRegistration.vue' /* webpackChunkName: "pages/UserRegistration" */))
+const _65ad0da1 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/CreateTodo",
-    component: _7087e242,
+    component: _4c2d1c43,
     name: "CreateTodo"
   }, {
     path: "/GetAllTodos",
-    component: _c4c0aadc,
+    component: _36a1b0b1,
     name: "GetAllTodos"
   }, {
     path: "/UpdateTodo",
-    component: _6d685d0f,
+    component: _490d9710,
     name: "UpdateTodo"
   }, {
     path: "/UserHome",
-    component: _20ad8fac,
+    component: _58b2032a,
     name: "UserHome"
   }, {
     path: "/UserLogin",
-    component: _2362b3ae,
+    component: _81c494e6,
     name: "UserLogin"
   }, {
     path: "/UserRegistration",
-    component: _fd5667f8,
+    component: _a8e67d76,
     name: "UserRegistration"
   }, {
     path: "/",
-    component: _0cbf777c,
+    component: _65ad0da1,
     name: "index"
   }],
 
