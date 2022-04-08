@@ -1,3 +1,4 @@
+export { default as Home } from '../..\\components\\Home.vue'
 export { default as Slider } from '../..\\components\\slider.vue'
 export { default as UserHeader } from '../..\\components\\UserHeader.vue'
 export { default as IncAppFooter } from '../..\\components\\inc\\AppFooter.vue'

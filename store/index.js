@@ -14,6 +14,12 @@ export const getters = {
 
 }
 export const actions = {
+    async UserRegistration({commit},Data){
+        const response = await this.$axios.post("http://localhost:5015/api/user/register",{user_name:Data.user_name,email:Data.email,passcode:Data.passcode,mobile:Data.mobile}).then((res) => {
+            console.log(res.data);
+            commit('UserRegistration',res.data);
+    })
+    },
     async UserLogin({commit},Data){
         const response = await this.$axios.post("http://localhost:5015/api/userlogin",{email:Data.email,passcode:Data.passcode}).then((res) => {
             console.log(res.data);
@@ -32,7 +38,7 @@ export const actions = {
     },
     async CreateTodo({commit},Data){
         await this.$axios.post('http://localhost:5015/api/todos/create',{todo_title: Data.title, todo_description: Data.description},{headers:{'Authorization':'Bearer '+this.state.Token}}).then((res) => {
-        commit('createTodo', res.data)
+        // commit('createTodo', res.data)
     })
     },
     async DeleteTodo({commit},id){

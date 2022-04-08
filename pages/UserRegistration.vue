@@ -9,7 +9,7 @@
             <h3>User Registration</h3>
           </div>
           <div class="card-body">
-            <form @submit.prevent="register">
+            <form @submit.prevent="UserRegistration">
               <div class="form-group">
                 <label for="user_name">User Name</label>
                 <input
@@ -92,19 +92,23 @@ export default {
     };
   },
   methods: {
-    async register() {
-      try {
-        console.log(this.mobile);
-        const response = await axios.post(
-          "http://localhost:5015/api/user/register",
-          this.formData
-        );
-        this.$route.push("/UserHome");
-      } catch (error) {
-        console.log(error);
-        this.errorMsg = error;
-      }
+    UserRegistration() {
+      this.$store.dispatch("UserRegistration", this.formData);
+      this.$router.push("/UserHome");
     },
+    // async register() {
+    //   try {
+    //     console.log(this.mobile);
+    //     const response = await axios.post(
+    //       "http://localhost:5015/api/user/register",
+    //       this.formData
+    //     );
+    //     this.$route.push("/UserHome");
+    //   } catch (error) {
+    //     console.log(error);
+    //     this.errorMsg = error;
+    //   }
+    // },
   },
 };
 </script>

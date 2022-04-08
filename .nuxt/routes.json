@@ -3,42 +3,49 @@
     "name": "CreateTodo",
     "path": "/CreateTodo",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\CreateTodo.vue",
-    "chunkName": "pages/CreateTodo"
+    "chunkName": "pages/CreateTodo",
+    "_name": "_4c2d1c43"
   },
   {
     "name": "GetAllTodos",
     "path": "/GetAllTodos",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\GetAllTodos.vue",
-    "chunkName": "pages/GetAllTodos"
+    "chunkName": "pages/GetAllTodos",
+    "_name": "_36a1b0b1"
   },
   {
     "name": "UpdateTodo",
     "path": "/UpdateTodo",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\UpdateTodo.vue",
-    "chunkName": "pages/UpdateTodo"
+    "chunkName": "pages/UpdateTodo",
+    "_name": "_490d9710"
   },
   {
     "name": "UserHome",
     "path": "/UserHome",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\UserHome.vue",
-    "chunkName": "pages/UserHome"
+    "chunkName": "pages/UserHome",
+    "_name": "_58b2032a"
   },
   {
     "name": "UserLogin",
     "path": "/UserLogin",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\UserLogin.vue",
-    "chunkName": "pages/UserLogin"
+    "chunkName": "pages/UserLogin",
+    "_name": "_81c494e6"
   },
   {
     "name": "UserRegistration",
     "path": "/UserRegistration",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\UserRegistration.vue",
-    "chunkName": "pages/UserRegistration"
+    "chunkName": "pages/UserRegistration",
+    "_name": "_a8e67d76"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Nspira\\\\Downloads\\\\TodoFrontEnd\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_65ad0da1"
   }
 ]

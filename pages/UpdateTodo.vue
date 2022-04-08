@@ -2,7 +2,7 @@
   <div>
     <UserHeader />
     <div class="row">
-      <h2>{{ this.$route.params.id }}</h2>
+      <!-- <h2>{{ this.$route.params.id }}</h2> -->
       <div class="col-md-4"></div>
       <div class="col-md-4">
         <div class="card p-4 mt-5">
@@ -64,6 +64,8 @@ export default {
   methods: {
     CreateTodo() {
       this.$store.dispatch("UpdateTodo", this.formData);
+      this.$store.dispatch("GetMyTodos");
+      this.$store.dispatch("GetAllTodos");
       this.$router.push("/UserHome");
     },
   },

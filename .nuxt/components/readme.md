@@ -6,6 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<Home>` | `<home>` (components/Home.vue)
 - `<Slider>` | `<slider>` (components/slider.vue)
 - `<UserHeader>` | `<user-header>` (components/UserHeader.vue)
 - `<IncAppFooter>` | `<inc-app-footer>` (components/inc/AppFooter.vue)

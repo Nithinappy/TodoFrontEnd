@@ -1,4 +1,7 @@
 {
+  "Home": {
+    "description": "Auto imported from components/Home.vue"
+  },
   "Slider": {
     "description": "Auto imported from components/slider.vue"
   },
