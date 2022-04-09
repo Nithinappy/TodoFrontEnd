@@ -62,10 +62,9 @@ export default {
     };
   },
   methods: {
-    CreateTodo() {
-      this.$store.dispatch("UpdateTodo", this.formData);
-      this.$store.dispatch("GetMyTodos");
-      this.$store.dispatch("GetAllTodos");
+    async CreateTodo() {
+      await this.$store.dispatch("UpdateTodo", this.formData);
+      await this.$store.dispatch("GetMyTodos");
       this.$router.push("/UserHome");
     },
   },

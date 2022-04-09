@@ -57,8 +57,8 @@ export default {
     };
   },
   methods: {
-    login() {
-      this.$store.dispatch("UserLogin", this.formData);
+    async login() {
+      await this.$store.dispatch("UserLogin", this.formData);
       this.$router.push("/UserHome");
     },
     // async login() {

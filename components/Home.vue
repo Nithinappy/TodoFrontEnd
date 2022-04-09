@@ -63,11 +63,10 @@ export default {
   },
 
   methods: {
-    deleteTodo(id) {
+    async deleteTodo(id) {
       console.log(id);
-      this.$store.dispatch("DeleteTodo", id);
-      this.$store.dispatch("GetMyTodos");
-      this.$store.dispatch("GetAllTodos");
+      await this.$store.dispatch("DeleteTodo", id);
+      await this.$store.dispatch("GetMyTodos");
     },
   },
   head() {
