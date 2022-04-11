@@ -86,6 +86,9 @@ export const mutations = {
     },
     updateTodo(state, payload){
         // state.MyTodos = payload;
+    },
+    UserRegistration(state, payload){
+        // state.MyTodos = payload;
     }
 
 

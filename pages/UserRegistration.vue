@@ -94,7 +94,7 @@ export default {
   methods: {
     UserRegistration() {
       this.$store.dispatch("UserRegistration", this.formData);
-      this.$router.push("/UserHome");
+      this.$router.push("/UserLogin");
     },
     // async register() {
     //   try {
